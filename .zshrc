@@ -400,3 +400,7 @@ alias nrs='nixos-rebuild switch'
 alias ncu='nixos-container update'
 alias ncr='nixos-container root-login'
 alias e='exit'
+
+HISTSIZE=1000
+SAVEHIST=1000
+HISTFILE=~/.history
